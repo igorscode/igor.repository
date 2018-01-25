@@ -4,4 +4,12 @@
     <TargetFramework>netstandard1.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\igor.repository\igor.repository.csproj" />
+  </ItemGroup>
+
 </Project>
