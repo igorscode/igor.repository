@@ -19,14 +19,6 @@ namespace igor.repository.sqlserver
             this.connectionString = connectionString;
         }
 
-        //public SqlServerRepositoryFactory()
-        //{}
-
-        //public void SetConnectionString(string connectionString)
-        //{
-        //    this.connectionString = connectionString;
-        //}
-
         #endregion
 
         #region interface
@@ -41,3 +33,4 @@ namespace igor.repository.sqlserver
         #endregion
     }
 }
+

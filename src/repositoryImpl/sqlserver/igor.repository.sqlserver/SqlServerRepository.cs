@@ -47,9 +47,9 @@ namespace igor.repository.sqlserver
             }
         }
 
-        public int Update(T entity, Expression<Func<T, Boolean>> filter)
+        public long Update(T entity, Expression<Func<T, Boolean>> filter)
         {
-            int retval = -1;
+            long retval = -1;
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
@@ -63,9 +63,9 @@ namespace igor.repository.sqlserver
             return retval;
         }
 
-        public int Delete(Expression<Func<T, Boolean>> filter)
+        public long Delete(Expression<Func<T, Boolean>> filter)
         {
-            int retval = -1;
+            long retval = -1;
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
@@ -108,7 +108,7 @@ namespace igor.repository.sqlserver
             return instance;
         }
 
-        public IList<T> GetList(Expression<Func<T, Boolean>> filter)
+        public IList<T> Find(Expression<Func<T, Boolean>> filter)
         {
             IList<T> list = new List<T>();
 
