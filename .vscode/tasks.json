@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/test/integration/mongo/igor.asyncrepository.mongo.integrationTest/igor.asyncrepository.mongo.integrationTest.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
