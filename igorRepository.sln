@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sqlserver", "sqlserver", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "igor.asyncrepository.mongo.integrationTest", "test\integration\mongo\igor.asyncrepository.mongo.integrationTest\igor.asyncrepository.mongo.integrationTest.csproj", "{6E19FD3F-EB38-4529-8416-F2BC7AD52B71}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "igor.repository.sqlserver.integrationTest", "test\integration\sqlserver\igor.repository.sqlserver.integrationTest\igor.repository.sqlserver.integrationTest.csproj", "{454538C8-CDDD-4375-BB70-ADA3A49F9EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{6E19FD3F-EB38-4529-8416-F2BC7AD52B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E19FD3F-EB38-4529-8416-F2BC7AD52B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E19FD3F-EB38-4529-8416-F2BC7AD52B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454538C8-CDDD-4375-BB70-ADA3A49F9EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454538C8-CDDD-4375-BB70-ADA3A49F9EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454538C8-CDDD-4375-BB70-ADA3A49F9EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454538C8-CDDD-4375-BB70-ADA3A49F9EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{FF755621-1E18-4611-8330-E9E2E2F2C4DD} = {A985C7CC-B430-4B78-9A31-EEA434F6839A}
 		{42E466D8-A197-4FF5-AE70-227EB1E8140E} = {A985C7CC-B430-4B78-9A31-EEA434F6839A}
 		{6E19FD3F-EB38-4529-8416-F2BC7AD52B71} = {FF755621-1E18-4611-8330-E9E2E2F2C4DD}
+		{454538C8-CDDD-4375-BB70-ADA3A49F9EF9} = {42E466D8-A197-4FF5-AE70-227EB1E8140E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76B28020-EBC4-41F9-BE98-6B14C59A323A}

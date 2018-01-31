@@ -8,7 +8,8 @@ namespace igor.asyncrepository.mongo.integrationTest
 {
     public class CollectionTest
     {
-        string connectionString = "mongodb://bcaicosmos:BVHoP90i8pVoz3QhoGQPhBiuKEDavNLBOap3QlfmHFKFkNrljYhTFqDvnO3BOGVloT7qllKLYS1E7P9gcIcPEw==@bcaicosmos.documents.azure.com:10255/[test]?ssl=true";
+        //igor$2018
+        string connectionString = "mongodb://igortestmongo:DhihwV8N5NNLYFcx5ehzlDrWVYlhx3Kfow7JM2reNDhc74QMTetyO4oCL1iJ1oVhJz493YNe58L0wuzleH7L8w==@igortestmongo.documents.azure.com:10255/[test]?ssl=true";
 
         [Fact]
         public async Task NonExistentCollectionTest()
@@ -18,7 +19,7 @@ namespace igor.asyncrepository.mongo.integrationTest
             IAsyncRepository<Entity> entityRepository = factory.CreateAsyncRepository<Entity>("testCollection");
 
             IList<Entity> entities = await entityRepository.Find(x => true);
-
+            
             Assert.True(entities != null);
         }
 

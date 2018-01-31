@@ -152,7 +152,7 @@ namespace igor.repository.sqlserver
                 SqlCommand command = new SqlCommand(queryString, connection);
 
                 connection.Open();
-                long count = (long)command.ExecuteScalar();
+                int count = (int)command.ExecuteScalar();
 
                 exists = count > 0;
             }
