@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace igor.asyncrepository.mongo
+namespace igor.repository.mongo.async
 {
     public class MongoAsyncRepository<T> : IAsyncRepository<T>
     {

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace igor.asyncrepository.mongo
+namespace igor.repository.mongo.async
 {
     public class MongoAsyncRepositoryFactory : IAsyncRepositoryFactory
     {

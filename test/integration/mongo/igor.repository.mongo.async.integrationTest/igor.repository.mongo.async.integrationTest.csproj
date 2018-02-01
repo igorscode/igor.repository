@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\src\repositoryImpl\mongo\igor.asyncrepository.mongo\igor.asyncrepository.mongo.csproj" />
+    <ProjectReference Include="..\..\..\..\src\repositoryImpl\mongo\igor.repository.mongo.async\igor.repository.mongo.async.csproj" />
     <ProjectReference Include="..\..\..\..\src\repository\igor.repository\igor.repository.csproj" />
   </ItemGroup>
 

@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFrameworks>netstandard1.0;net451</TargetFrameworks>
+    <Authors>Javier Lasterra</Authors>
+    <Company>igorscode</Company>
+    <Description>Data access interface based on repository pattern.
+( It only contains the interfaces of the repository. )</Description>
   </PropertyGroup>
 
 </Project>

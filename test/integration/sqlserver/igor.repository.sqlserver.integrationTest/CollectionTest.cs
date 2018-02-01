@@ -6,9 +6,7 @@ namespace igor.repository.sqlserver.integrationTest
 {
     public class CollectionTest
     {
-        //igoradmin   igor$2018
         //string connectionString = "mongodb://igortestmongo:DhihwV8N5NNLYFcx5ehzlDrWVYlhx3Kfow7JM2reNDhc74QMTetyO4oCL1iJ1oVhJz493YNe58L0wuzleH7L8w==@igortestmongo.documents.azure.com:10255/[test]?ssl=true";
-
         string connectionString = "Server=tcp:igortestsqlserver.database.windows.net,1433;Initial Catalog=igortestsqlserver;Persist Security Info=False;User ID=igoradmin;Password=igor$2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         [Fact]
