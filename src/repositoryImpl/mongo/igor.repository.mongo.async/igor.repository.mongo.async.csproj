@@ -2,14 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <Description>Async data access implemantacion for MongoDB based on repository pattern.</Description>
+    <Authors>Javier Lasterra</Authors>
+    <Company>igorscode</Company>
+    <PackageTags>Repository pattern data access library mongo mongodb cosmos cosmosdb</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="igor.repository" Version="1.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\repository\igor.repository\igor.repository.csproj" />
   </ItemGroup>
 
 </Project>
