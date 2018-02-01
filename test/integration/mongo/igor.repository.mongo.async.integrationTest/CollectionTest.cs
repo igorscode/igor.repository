@@ -6,7 +6,7 @@ using Xunit;
 namespace igor.repository.mongo.async.integrationTest
 {
     public class CollectionTest
-    {        
+    {
         string connectionString = "mongodb://igortestmongo:DhihwV8N5NNLYFcx5ehzlDrWVYlhx3Kfow7JM2reNDhc74QMTetyO4oCL1iJ1oVhJz493YNe58L0wuzleH7L8w==@igortestmongo.documents.azure.com:10255/[test]?ssl=true";
 
         [Fact]
